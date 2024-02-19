@@ -1,0 +1,12 @@
+@hadiljobs-icons-admin__font-name-path: '@{baseDir}fonts/HadilFonts/jobs';
+@hadiljobs-icons-admin__font-name : 'HadilJobs';
+.lib-font-face(
+    @family-name:@hadiljobs-icons-admin__font-name,
+    @font-path: @hadiljobs-icons-admin__font-name-path,
+    @font-weight: normal,
+    @font-style: normal
+);
+.admin__menu .item-job-head.parent.level-0 > a:before {
+    font-family: @hadiljobs-icons-admin__font-name;
+    content: "\e900";
+}
